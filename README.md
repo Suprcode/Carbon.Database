@@ -1,9 +1,5 @@
 # Carbon Mir 1 Database
 
-This Repo contains multiple Databases to Crystal Mir 2 
-Each folder contains a different Database.
-
-
 How to use;
 
 1: Download Mir client & server from LINK INCOMING

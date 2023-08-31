@@ -1,0 +1,43 @@
+[@Main]
+#SAY
+Welcome, What can I do for you?
+I see you're wearing: 
+{<$NECKLACE>/CORAL}
+{L: <$BRACELET_L> R: <$BRACELET_R>/CORAL}
+{L: <$Ring_L> R: <$Ring_R>/CORAL}
+
+<View/@BuySell> Store.
+<Repair/@Repair> Jewellery.
+
+[@BuySell]
+#SAY
+Which item would you like to Buy or Sell?
+<Buy Back/@BuyBack>
+ 
+<Back/@main>
+
+[@BuyBack]
+#SAY
+These are the items still available to purchase back.
+ 
+<Back/@main>
+
+[@Repair]
+#SAY
+You can repair various kinds of Jewellery.
+  
+<Back/@main>
+
+[Types]
+4
+
+[Trade]
+Necklace1
+Necklace2
+Necklace3
+CopperRing
+HexagonalRing
+HornRing
+IronBracelet
+ThinBracelet
+LeatherGlove

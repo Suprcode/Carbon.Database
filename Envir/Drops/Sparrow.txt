@@ -1,0 +1,39 @@
+;Pots + Other
+1/20 Gold 100
+1/25 (HP)PotionSmall
+1/25 (MP)PotionSmall
+
+;Weapons
+1/25 WoodenSword
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+1/60 IronBracelet 
+1/140 ThinBracelet 
+1/140 LeatherGlove 
+1/230 SilverBracelet
+1/230 SteelBracelet
+1/250 LargeBracelet
+
+;Rings
+1/60 CopperRing 
+1/140 HornRing  
+1/140 HexagonalRing 
+1/230 IronRing
+1/230 BlueRing
+
+;Shoes
+
+
+;Belts
+
+
+;Stone

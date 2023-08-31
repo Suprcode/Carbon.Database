@@ -1,0 +1,31 @@
+[@Description]
+Welcome to {NamsoVillage/Yellow} Young traveller.
+Before you get started with your journey
+would you please do me a quick favour? 
+
+[@TaskDescription]
+Ask {Butcher/LimeGreen} about {Meat/LightSteelBlue}
+
+[@Completion]
+Thank you traveller.
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+(HP)PotionSmall
+(MP)PotionSmall
+
+[@SelectRewards]
+
+[@ExpReward]
+10
+
+[@GoldReward]
+120
+
+//Pickup: Palace_Leader @ Namso_Palace 0.3.5.9
+//Handin: Butcher_David @ Namso_Butcher 0.3.5.4

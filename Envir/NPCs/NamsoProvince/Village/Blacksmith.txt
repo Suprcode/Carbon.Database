@@ -1,0 +1,42 @@
+[@Main]
+#SAY
+Welcome. Thanks for dropping in.
+
+I see you're wearing: {<$WEAPON>/CORAL}
+
+<View/@Buy> Store.
+<Repair/@Repair> Weapon.
+ 
+[@Buy]
+#SAY
+Which item would you like to Buy?
+
+I also buy old weapons.
+
+<Buy Back/@BuyBack>
+ 
+<Back/@Main>
+
+[@BuyBack]
+#SAY
+These are the items still available to purchase back.
+ 
+<Back/@Main>
+
+[@Repair]
+#SAY
+Would you like to repair a weapon?
+Show me the weapon that needs it.
+ 
+<Back/@Main>
+
+[Types]
+1
+
+[Trade]
+Weapon56
+Weapon1
+Weapon2
+Weapon3
+
+[Quests]

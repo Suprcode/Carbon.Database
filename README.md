@@ -6,7 +6,7 @@ Each folder contains a different Database.
 
 How to use;
 
-1: Download Mir client & server from https://github.com/suprcode/mir2
+1: Download Mir client & server from LINK INCOMING
 
 2: Run The Server.exe located in the Server folder. Allow it to start then close it down; This is so all initial config files are created.
 

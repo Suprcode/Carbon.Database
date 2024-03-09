@@ -18,14 +18,14 @@ How to use;
 
 # Useful Links
 
-LOMCN - https://www.lomcn.net/
+[LOMCN](https://www.lomcn.net)
 
-Contributors - https://github.com/Suprcode/mir1-database/graphs/contributors
+[Contributors](https://github.com/Suprcode/mir1-database/graphs/contributors)
 
-MirFiles - http://mirfiles.com/
+[MirFiles](http://mirfiles.com)
 
-Mir 1 WIKI - https://www.lomcn.net/wiki/index.php/Carbon
+[Mir 1 WIKI](https://www.lomcn.net/wiki/index.php/Carbon)
 
-Carbon Mir1 Tutorials - https://www.lomcn.net/forum/forums/carbon-tutorials.839/
+[Carbon Mir1 Tutorials](https://www.lomcn.net/forum/forums/carbon-tutorials.839)
 
-Source code - LINK INCOMING
+[Source code](https://github.com/JevLOMCN/mir1)

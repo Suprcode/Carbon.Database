@@ -2,11 +2,11 @@
 
 How to use;
 
-1: Download Mir client & server from LINK INCOMING
+1: Download Mir [Client](https://github.com/JevLOMCN/mir1/releases) & [Server](https://github.com/JevLOMCN/mir1/releases) 
 
 2: Run The Server.exe located in the Server folder. Allow it to start then close it down; This is so all initial config files are created.
 
-3: Download database from the Releases Section
+3: Download database from the [Releases](https://github.com/Suprcode/Carbon.Database/releases) Section
 
 4: Drag and drop all new files into the Server Folder replacing them with the new database.
 

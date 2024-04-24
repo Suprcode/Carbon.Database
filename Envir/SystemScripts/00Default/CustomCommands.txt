@@ -1,0 +1,23 @@
+GM Manager
+[@_CUSTOMCOMMAND(Manager)]
+#INCLUDE [SystemScripts\00Default\GMManager.txt] @Main
+
+;;PKPoint Command.
+[@_CUSTOMCOMMAND(PKPOINT)]
+#ACT
+LocalMessage "You current have <$PKPOINT> PK Points." Hint
+
+;;Kill Pets Command
+[@_CustomCommand(KillPets)]
+#ACT
+CLEARPETS
+LocalMessage "Your Pets have been killed successfully."
+
+[@_CUSTOMCOMMAND(GM)]
+#IF
+ISADMIN
+#ACT
+MOVE GM 39 39
+LocalMessage "Moved to Gamemaster Map" Hint
+#ELSEACT
+LocalMessage "You are not a Gamemaster" Hint

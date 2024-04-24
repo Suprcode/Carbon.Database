@@ -1,0 +1,55 @@
+;Pots + Other
+1/20 Gold 100
+1/25 (HP)PotionSmall
+1/25 (MP)PotionSmall
+
+;Weapons
+1/60 WoodenSword 
+1/90 Dagger 
+1/100 EbonySword  
+1/140 BronzeSword 
+1/180 IronSword 
+1/220 ShortSword 
+1/220 BronzeAxe
+1/300 Trident
+1/300 HookedSword
+1/300 Scimitar
+
+;Armour
+1/8 BaseDress(M)
+1/20 LightArmour(M)
+1/40 MediumArmour(M)
+1/8 BaseDress(F)
+1/20 LightArmour(F)
+1/40 MediumArmour(F)
+
+;Helmets
+
+
+;Necklace
+1/60 GoldNecklace 
+1/80 PrecisionNecklace 
+1/200 BlackNecklace 
+1/200 EbonyNecklace 
+1/200 YellowNecklace 
+1/700 NagaNecklace 
+1/700 AmberNecklace 
+1/700 PhoenixBead 
+
+;Bracelets
+
+
+;Rings
+1/80 CopperRing 
+1/110 HornRing 
+1/110 HexagonalRing 
+1/110 GlassRing 
+1/200 BlueRing
+
+;Shoes
+
+
+;Belts
+
+
+;Stone

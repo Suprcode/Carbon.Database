@@ -1,0 +1,30 @@
+[@Main]
+#SAY
+Welcome, what can I do for you?
+ 
+<Buy/@Buy> Meat.
+<Ask/@MeatHelp> about how to gain meat.
+ 
+[@Buy]
+#SAY
+I have a small collection of meats you can buy.
+Have you any spare meat? I can buy it from you.
+ 
+<Back/@Main>
+
+[@MeatHelp]
+#SAY
+Meat can be gained from Hens, Deer, Wolves,
+Rabbit.
+
+<Back/@Main>
+
+[Types]
+9
+
+[Trade]
+Chicken
+Meat
+
+[Quests]
+-1

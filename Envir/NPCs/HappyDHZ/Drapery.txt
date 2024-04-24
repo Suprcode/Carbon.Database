@@ -1,0 +1,54 @@
+[@Main]
+#SAY
+Hello Traveller. What can I do for you? 
+
+I see you're wearing: {<$ARMOUR>/CORAL}
+I see you're wearing: {<$HELMET>/CORAL}
+
+<View/@BuySell> Store.
+<Repair/@Repair> Drapery pieces.
+
+[@BuySell]
+#SAY
+Which item would you like to Buy or Sell?
+<Buy Back/@BuyBack>
+ 
+<Back/@main>
+
+[@BuyBack]
+#SAY
+These are the items still available to purchase back.
+ 
+<Back/@main>
+
+[@Repair]
+#SAY
+Would you like to repair a drapery piece?
+ 
+<Back/@main>
+
+
+[Types]
+3
+4
+
+[Trade]
+BaseDress(M)
+MediumArmour(M)
+LightArmour(M)
+HeavyArmour(M)
+MagicRobe(M)
+SoulArmour(M)
+BaseDress(F)
+MediumArmour(F)
+LightArmour(F)
+HeavyArmour(F)
+MagicRobe(F)
+SoulArmour(F)
+BronzeHelmet
+MagicHelmet
+BrassHelmet
+GoldenTiara
+SkeletonHelmet
+ShamanHelmet
+SteelHelmet

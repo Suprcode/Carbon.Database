@@ -1,0 +1,32 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Welcome to my shop.
+
+<View/@BuySell> Store. 
+
+#ELSEACT
+MOVE 0.3.5.1
+
+[@BuySell]
+#SAY
+What Item would you like to buy or sell?
+
+
+[Types]
+3
+
+[Trade]
+BaseDress(M)
+MediumArmour(M)
+LightArmour(M)
+HeavyArmour(M)
+MagicRobe(M)
+SoulArmour(M)
+BaseDress(F)
+MediumArmour(F)
+LightArmour(F)
+HeavyArmour(F)
+MagicRobe(F)
+SoulArmour(F)

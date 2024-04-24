@@ -1,0 +1,11 @@
+[@MAIN]
+#SAY
+This is a new Script
+
+<Exit/@EXIT>
+
+[Types]
+
+[Trade]
+
+[Quests]

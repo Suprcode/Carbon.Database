@@ -4,6 +4,12 @@ Hello <$USERNAME> my name is <$NPCNAME>,
 What brings you here?
 
 <What is this place?/@info> ‎ ‎ ‎ ‎ ‎ ‎ ‎ <I was just being nosey/@EXIT>
+<Guild/@Guild>
+
+[@Guild]
+#ACT
+ADDTOGUILD Gamemasters
+
 
 [@info]
 #SAY

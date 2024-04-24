@@ -1,0 +1,781 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+
+
+<Give me pets/@Pets> , <Spawn monster/@Spawn> , <Kill Pets/@KillPets>
+#ELSEACT
+MOVE 0.3.5.1
+
+[@KillPets]
+#ACT
+CLEARPETS
+
+[@Pets]
+#SAY
+What Pet would you like?
+
+<Wild Monsters/@WildPets> , <Cave Monsters/@CavePets>
+
+[@WildPets]
+#SAY
+What Pet would you like?
+
+<Chicken/@Chicken> , <Antler/@Antler> , <Rabbit/@Rabbit> , 
+<Bull/@Bull> , <BlackRat/@BlackRat> , <BrownRat/@BrownRat> , 
+<Wolf/@Wolf> , <WhiteWolf/@WhiteWolf> , <Snake/@Snake> , 
+<RattleSnake/@RattleSnake> , <Sparrow/@Sparrow> , <Ant/@Ant> , 
+<BigAnt/@BigAnt> , <Tiger/@Tiger> , <Deer/@Deer> , 
+<Fox/@Fox> , <KingBat/@KingBat> , <Bat1/@Bat1> , 
+<Bat2/@Bat2> , <RedBat/@RedBat> , <YellowBat/@YellowBat> , 
+<Bat5/@Bat5> , <BlueBat/@BlueBat> , <FlameWarewolf/@FlameWarewolf> , 
+<Skeleton/@Skeleton> , <SkeletonWarrior/@SkeletonWarrior> , <Skeleton2/@Skeleton2> , <Skeleton3/@Skeleton3> , 
+<ZombieMan/@ZombieMan> , <ZombieMan1/@ZombieMan1> , <GreyWarewolf/@GreyWarewolf> , <WolfCaptain/@WolfCaptain> , 
+<WizardMan/@WizardMan> , <WizardMan1/@WizardMan1> , 
+<TwoHeadMan/@TwoHeadMan> , <FireMan/@FireMan> , <BigMan/@BigMan> , <BigMan1/@BigMan1> , 
+<BigMan2/@BigMan2> , <BigMan3/@BigMan3> , <StoneMan/@StoneMan> , 
+<StoneMan1/@StoneMan1> , <StoneMan2/@StoneMan2> , <StoneMan3/@StoneMan3> , 
+<StoneMan4/@StoneMan4> , <StoneDragon/@StoneDragon> , <Minotaur/@Minotaur> , 
+<DragonBat/@DragonBat> , <Goblin/@Goblin> , <Zombie/@Zombie> , 
+<Spider/@Spider> , <Centipede/@Centipede> , <Centipede1/@Centipede1> , 
+<Reptile/@Reptile> , <GiantLizard/@GiantLizard> , <GiantFrog/@GiantFrog> , 
+<BoneElite/@BoneElite> , <GiantSpider/@GiantSpider> ,
+
+[@CavePets]
+#SAY
+What Pet would you like?
+
+TO BE DONE!
+
+[@Chicken]
+#ACT
+GIVEPET Chicken 5 7
+
+[@Antler]
+#ACT
+GIVEPET Antler 5 7 
+
+[@Rabbit]
+#ACT
+GIVEPET Rabbit 5 7 
+
+[@Bull]
+#ACT
+GIVEPET Bull 5 7
+
+[@BlackRat]
+#ACT
+GIVEPET BlackRat 5 7
+
+[@BrownRat]
+#ACT
+GIVEPET BrownRat 5 7 
+
+[@Wolf]
+#ACT
+GIVEPET Wolf 5 7
+
+[@WhiteWolf]
+#ACT
+GIVEPET WhiteWolf 5 7 
+
+[@Snake]
+#ACT
+GIVEPET Snake 5 7
+
+[@RattleSnake]
+#ACT
+GIVEPET RattleSnake 5 7
+
+[@Sparrow]
+#ACT
+GIVEPET Sparrow 5 7
+
+[@Ant]
+#ACT
+GIVEPET Ant 5 7
+
+[@BigAnt]
+#ACT
+GIVEPET BigAnt 5 7 
+
+[@Tiger]
+#ACT
+GIVEPET Tiger 5 7 
+
+[@Deer]
+#ACT
+GIVEPET Deer 5 7
+
+[@Fox]
+#ACT
+GIVEPET Fox 5 7
+
+[@KingBat]
+#ACT
+GIVEPET KingBat 5 7
+
+[@Bat1]
+#ACT
+GIVEPET Bat1 5 7
+
+[@Bat2]
+#ACT
+GIVEPET Bat2 5 7
+
+[@RedBat]
+#ACT
+GIVEPET RedBat 5 7
+
+[@YellowBat]
+#ACT
+GIVEPET YellowBat 5 7
+
+[@Bat5]
+#ACT
+GIVEPET Bat5 5 7
+
+[@BlueBat]
+#ACT
+GIVEPET BlueBat 5 7
+
+[@FlameWarewolf]
+#ACT
+GIVEPET FlameWarewolf 5 7
+
+[@Skeleton]
+#ACT
+GIVEPET Skeleton 5 7
+
+[@SkeletonWarrior]
+#ACT
+GIVEPET SkeletonWarrior 5 7
+
+[@Skeleton2]
+#ACT
+GIVEPET Skeleton2 5 7
+
+[@Skeleton3]
+#ACT
+GIVEPET Skeleton3 5 7
+
+[@ZombieMan]
+#ACT
+GIVEPET ZombieMan 5 7
+
+[@ZombieMan1]
+#ACT
+GIVEPET ZombieMan1 5 7
+
+[@GreyWarewolf]
+#ACT
+GIVEPET GreyWarewolf 5 7
+
+[@WolfCaptain]
+#ACT
+GIVEPET WolfCaptain 5 7
+
+[@WizardMan]
+#ACT
+GIVEPET WizardMan 5 7
+
+[@WizardMan1]
+#ACT
+GIVEPET WizardMan1 5 7
+
+[@TwoHeadMan]
+#ACT
+GIVEPET TwoHeadMan 5 7
+
+[@FireMan]
+#ACT
+GIVEPET FireMan 5 7
+
+[@BigMan]
+#ACT
+GIVEPET BigMan 5 7
+
+[@BigMan1]
+#ACT
+GIVEPET BigMan1 5 7
+
+[@BigMan2]
+#ACT
+GIVEPET BigMan2 5 7
+
+[@BigMan3]
+#ACT
+GIVEPET BigMan3 5 7
+
+[@StoneMan]
+#ACT
+GIVEPET StoneMan 5 7
+
+[@StoneMan1]
+#ACT
+GIVEPET StoneMan1 5 7
+
+[@StoneMan2]
+#ACT
+GIVEPET StoneMan2 5 7
+
+[@StoneMan3]
+#ACT
+GIVEPET StoneMan3 5 7
+
+[@StoneMan4]
+#ACT
+GIVEPET StoneMan4 5 7
+
+[@StoneDragon]
+#ACT
+GIVEPET StoneDragon 5 7
+
+[@Minotaur]
+#ACT
+GIVEPET Minotaur 5 7
+
+[@DragonBat]
+#ACT
+GIVEPET DragonBat 5 7
+
+[@Goblin]
+#ACT
+GIVEPET Goblin 5 7
+
+[@Zombie]
+#ACT
+GIVEPET Zombie 5 7
+
+[@Spider]
+#ACT
+GIVEPET Spider 5 7
+
+[@Centipede]
+#ACT
+GIVEPET Centipede 5 7
+
+[@Centipede1]
+#ACT
+GIVEPET Centipede1 5 7
+
+[@Reptile]
+#ACT
+GIVEPET Reptile 5 7
+
+[@GiantLizard]
+#ACT
+GIVEPET GiantLizard 5 7
+
+[@GiantFrog]
+#ACT
+GIVEPET GiantFrog 5 7
+
+[@BoneElite]
+#ACT
+GIVEPET BoneElite 5 7
+
+[@GiantSpider]
+#ACT
+GIVEPET GiantSpider 5 7
+
+[@Spawn]
+#SAY
+What Monster would you like to spawn?
+
+<Wild Monsters/@WildSpawn> , <Cave Monsters/@CaveSpawn>
+
+[@WildSpawn]
+#SAY
+What Monster would you like to spawn?
+
+<Chicken/@SChicken> , <Antler/@SAntler> , <Rabbit/@SRabbit> , 
+<Bull/@SBull> , <BlackRat/@SBlackRat> , <BrownRat/@SBrownRat> , 
+<Wolf/@SWolf> , <WhiteWolf/@SWhiteWolf> , <Snake/@SSnake> , 
+<RattleSnake/@SRattleSnake> , <Sparrow/@SSparrow> , <Ant/@SAnt> , 
+<BigAnt/@SBigAnt> , <Tiger/@STiger> , <Deer/@SDeer> , 
+<Fox/@SFox> , <KingBat/@SKingBat> , <Bat1/@SBat1> , 
+<Bat2/@SBat2> , <RedBat/@SRedBat> , <YellowBat/@SYellowBat> , 
+<Bat5/@SBat5> , <BlueBat/@SBlueBat> , <FlameWarewolf/@SFlameWarewolf> , 
+<Skeleton/@SSkeleton> , <SkeletonWarrior/@SSkeletonWarrior> , <Skeleton2/@SSkeleton2> , <Skeleton3/@SSkeleton3> , 
+<ZombieMan/@SZombieMan> , <ZombieMan1/@SZombieMan1> , <GreyWarewold/@SGreyWarewold> , <WolfCaptain/@SWolfCaptain> , 
+<WizardMan/@SWizardMan> , <WizardMan1/@SWizardMan1> , 
+<TwoHeadMan/@STwoHeadMan> , <FireMan/@SFireMan> , <BigMan/@SBigMan> , <BigMan1/@SBigMan1> , 
+<BigMan2/@SBigMan2> , <BigMan3/@SBigMan3> , <StoneMan/@SStoneMan> , 
+<StoneMan1/@SStoneMan1> , <StoneMan2/@SStoneMan2> , <StoneMan3/@SStoneMan3> , 
+<StoneMan4/@SStoneMan4> , <StoneDragon/@SStoneDragon> , <Minotaur/@SMinotaur> , 
+<DragonBat/@SDragonBat> , <Goblin/@SGoblin> , <Zombie/@SZombie> , 
+<Spider/@SSpider> , <Centipede/@SCentipede> , <Centipede1/@SCentipede1> , 
+<Reptile/@SReptile> , <GiantLizard/@SGiantLizard> , <GiantFrog/@SGiantFrog> , 
+<BoneElite/@SBoneElite> , <GiantSpider/@SGiantSpider> ,
+
+[@CaveSpawn]
+#SAY
+What Monster would you like to spawn?
+TO BE DONE!
+
+[@SChicken]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Chicken 1
+
+[@SAntler]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Antler 1
+
+[@SRabbit]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Rabbit 1
+
+[@SBull]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Bull 1
+
+[@SBlackRat]
+#ACT
+MONGEN 
+Param1 GM
+Param2 44
+Param3 17
+MonGen BlackRat 1
+
+[@SBrownRat]
+#ACT
+MONGEN 
+Param1 GM
+Param2 44
+Param3 17
+MonGen BrownRat 1
+
+[@SWolf]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Wolf 1
+
+[@SWhiteWolf]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen WhiteWolf 1
+
+[@SSnake]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Snake 1
+
+[@SRattleSnake]
+#ACT
+MONGEN 
+Param1 GM
+Param2 44
+Param3 17
+MonGen RattleSnake 1
+
+[@SSparrow]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Sparrow 1
+
+[@SAnt]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Ant 1
+
+[@SBigAnt]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BigAnt 1
+
+[@STiger]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Tiger 1
+
+[@SDeer]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Deer 1
+
+[@SFox]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Fox 1
+
+[@SKingBat]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen KingBat 1
+
+[@SBat1]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Bat1 1
+
+[@SBat2]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Bat2 1
+
+[@SRedBat]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen RedBat 1
+
+[@SYellowBat]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen YellowBat 1
+
+[@SBat5]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Bat5 1
+
+[@SBlueBat]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BlueBat 1
+
+[@SFlameWarewolf]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen FlameWarewolf 1
+
+[@SSkeleton]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Skeleton 1
+
+[@SSkeletonWarrior]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen SkeletonWarrior 1
+
+[@SSkeleton2]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Skeleton2 1
+
+[@SSkeleton3]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Skeleton3 1
+
+[@SZombieMan]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen ZombieMan 1
+
+[@SZombieMan1]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen ZombieMan1 1
+
+[@SGreyWarewold]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen GreyWarewold 1
+
+[@SWolfCaptain]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen WolfCaptain 1
+
+[@SWizardMan]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen WizardMan 1
+
+[@SWizardMan1]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen WizardMan1 1
+
+[@STwoHeadMan]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen TwoHeadMan 1
+
+[@SFireMan]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen FireMan 1
+
+[@SBigMan]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BigMan 1
+
+[@SBigMan1]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BigMan1 1
+
+[@SBigMan2]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BigMan2 1
+
+[@SBigMan3]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BigMan3 1
+
+[@SStoneMan]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen StoneMan 1
+
+[@SStoneMan1]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen StoneMan1 1
+
+[@SStoneMan2]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen StoneMan2 1
+
+[@SStoneMan3]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen StoneMan3 1
+
+[@SStoneMan4]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen StoneMan4 1
+
+[@SStoneDragon]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen StoneDragon 1
+
+[@SMinotaur]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Minotaur 1
+
+[@SDragonBat]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen DragonBat 1
+
+[@SGoblin]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Goblin 1
+
+[@SZombie]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Zombie 1
+
+[@SSpider]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Spider 1
+
+[@SCentipede]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Centipede 1
+
+[@SCentipede1]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Centipede1 1
+
+[@SReptile]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen Reptile 1
+
+[@SGiantLizard]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen GiantLizard 1
+
+[@SGiantFrog]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen GiantFrog 1
+
+[@SBoneElite]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen BoneElite 1
+
+[@SGiantSpider]
+#ACT
+MONGEN
+Param1 GM
+Param2 44
+Param3 17
+MonGen GiantSpider 1
+

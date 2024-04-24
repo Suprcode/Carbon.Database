@@ -1,0 +1,58 @@
+[@Main]
+#SAY
+Welcome, How many I help you?
+ 
+<View/@BuySell> Store.
+Listen to the <explanation/@helpbooks> about skills.
+
+[@BuySell]
+#SAY
+Please select the Book you either want to Buy or Sell.
+<Buy Back/@BuyBack>
+ 
+<Back/@Main>
+
+[@helpbooks]
+#SAY
+What kind of Books are you interested in?
+ 
+Warrior:  <Skill List/@War>
+Wizard:   <Skill List/@Wiz>
+Taoist:   <Skill List/@Tao>
+
+<Back/@Main>
+
+[@War]
+#SAY
+Level  7: 
+Level  9: 
+Level 14: 
+Level 18: 
+Level 19: 
+Level 20: 
+<Back/@helpbooks>
+
+[@Wiz]
+#SAY
+Level  7: 
+Level  9: 
+Level 14: 
+Level 18: 
+Level 19: 
+Level 20: 
+<Back/@helpbooks>
+
+[@Tao]
+#SAY
+Level  7: 
+Level  9: 
+Level 14: 
+Level 18: 
+Level 19: 
+Level 20: 
+<Back/@helpbooks>
+
+[Types]
+14
+
+[Trade]

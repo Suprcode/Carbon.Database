@@ -1,0 +1,9 @@
+[@MAIN]
+{
+#IF
+CHECKPKPOINT < 199
+#ACT
+ENTERMAP
+#ELSEACT
+LocalMessage "[Commander] Halt! You may not leave just yet." Hint
+}

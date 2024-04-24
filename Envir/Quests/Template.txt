@@ -1,0 +1,30 @@
+[@Description]
+Hello I am a quest, Would you like to help me?
+
+[@TaskDescription]
+Please can you go and ...
+
+[@Completion]
+Thank you ever so much for helping me.
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+(HP)PotionSmall 5
+
+[@SelectRewards]
+
+[@ExpReward]
+10
+
+[@GoldReward]
+10
+
+//Pickup: NPCNAME @ MAPNAME MAP-FILENAME
+//Handin: NPCNAME @ MAPNAME MAP-FILENAME

@@ -1,0 +1,152 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Managing the affairs of a Game Master like you is a pleasure.
+What function would you like me to perform today <$DATE>
+
+<Guild Application/@CreateGuildCheck> , <Kill my Pets/@KillPets> , <Open my Storage/@STORAGE> , <Teleport/@Teleport> , 
+<Change Level to 1/@Level> , <Give Flag 10/@Flag> , <FlagCheck/@FlagCheck>
+#ELSEACT
+MOVE 0.3.5.1
+
+[@Flag]
+#ACT
+SET [10] 1
+
+[@FlagCheck]
+#IF
+CHECK [10] 1
+#SAY
+You currently have Flag 10.
+
+[@CreateGuildCheck]
+#IF
+CHECKGOLD < 1000000
+#ACT
+GIVEGOLD 1000000
+GOTO @CheckLevel
+#ELSEACT
+GOTO @CheckLevel
+
+[@CheckLevel]
+#IF
+LEVEL < 22
+#ACT
+CHANGELEVEL 22
+GOTO @CREATEGUILD
+#ELSEACT
+GOTO @CREATEGUILD
+
+[@CREATEGUILD]
+
+[@STORAGE]
+#SAY
+Trust me, I'm looking after your stuff.
+
+<Main Menu/@Main>
+
+[@KillPets]
+#ACT
+CLEARPETS
+
+[@Teleport]
+#SAY
+Where would you like to teleport to? 
+
+<Main Maps/@MainMaps> , <Villages/@Village> , <Caves/@Caves>
+
+
+<Main Menu/@Main>
+[@MainMaps]
+#Say
+Which Map would you like to visit?
+
+<Main Menu/@Main>
+
+[@Village]
+#Say
+Which Village would you like to visit?
+
+<Bichon/@Bichon> , <Guangxi/@Guangxi> , <Soyeo/@Soyeo> , 
+<Hyundo/@Hyundo> , <Baikang/@Baikang> , <Nongan/@Nongan> , <Namso/@Namso> , <Mokjeo/@Mokjeo> , 
+<Sunyang/@Sunyang> , <Samrong/@Samrong> , 
+<Suhok/@Suhok> , <JangBaek/@JangBaek> , <Devildom/@Devildom> , <Bowan/@Bowan> , <Donghang/@Donghang> , 
+<Chilljung/@Chilljung>
+‎ 
+<Main Menu/@Main>
+
+[@Caves]
+#Say
+Which Cave would you like to visit?
+
+<Main Menu/@Main>
+
+[@Bichon]
+#ACT
+MOVE 0.1.2.1
+
+[@Guangxi]
+#ACT
+MOVE 0.1.5.1
+
+[@Soyeo]
+#ACT
+MOVE 0.2.2.1
+
+[@Hyundo]
+#ACT
+MOVE 0.2.4.1
+
+[@Baikang]
+#ACT
+MOVE 0.2.6.1
+
+[@Nongan]
+#ACT
+MOVE 0.3.3.1
+
+[@Namso]
+#ACT
+MOVE 0.3.5.1
+
+[@Mokjeo]
+#ACT
+MOVE 0.3.7.1
+
+[@Sunyang]
+#ACT
+MOVE 0.4.1.1
+
+[@Samrong]
+#ACT
+MOVE 0.4.4.1
+
+[@Suhok]
+#ACT
+MOVE 0.4.6.1
+
+[@JangBaek]
+#ACT
+MOVE 0.6.1.1
+
+[@Devildom]
+#ACT
+MOVE 0.6.4.1
+
+[@Bowan]
+#ACT
+MOVE 0.6.7.1
+
+[@Donghang]
+#ACT
+MOVE 0.7.3.1
+
+[@Chilljung]
+#ACT
+MOVE 0.7.5.1
+
+[@Level]
+#ACT
+CHANGELEVEL 1
+

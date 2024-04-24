@@ -1,0 +1,38 @@
+[@Main]
+#SAY
+Hello traveller. How can I help you?
+ 
+<Access/@Storage> Storage
+<Exchange Gold Pots/@Buy> Stuff
+
+[@Storage]
+#SAY
+What item do you want to store or withdraw?
+ 
+<Back/@Main>
+
+[@Buy]
+#SAY
+What would like to exchange?
+ 
+ Exchange: <Pot Of Gold/@GPot> into Gold - Commission (2000 Gold)
+
+<Back/@Main>
+
+[@GPot]
+#IF
+CHECKITEM PotOfGold 1
+#ACT
+TAKEITEM PotOfGold 1
+GIVEGOLD 998000
+#ELSESAY
+You don't have a GoldPot for me to Exchange...
+Come back only if u do have one.
+ 
+<Back/@Buy>
+
+[Types]
+1
+
+[Trade]
+PotOfGold

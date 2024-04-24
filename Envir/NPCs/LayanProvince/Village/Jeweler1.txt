@@ -1,0 +1,45 @@
+[@Main]
+#SAY
+Welcome, What can I do for you?
+I see you're wearing: 
+{L: <$RING_L> R: <$RING_R>/CORAL}
+
+<View/@BuySell> Store.
+<Repair/@Repair> Jewellery.
+ 
+<Close/@exit>
+
+[@BuySell]
+#SAY
+Which item would you like to Buy or Sell?
+<Buy Back/@BuyBack>
+ 
+<Back/@main>
+
+[@BuyBack]
+#SAY
+These are the items still available to purchase back.
+ 
+<Back/@main>
+
+[@Repair]
+#SAY
+You can repair Rings and Bracelets.
+  
+<Back/@main>
+
+[Types]
+6
+
+[Trade]
+CopperRing
+GlassRing
+HexagonalRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+BlackRing
+SerpentEyeRing
+PearlRing
+GoldRing

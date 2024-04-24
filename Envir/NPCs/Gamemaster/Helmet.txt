@@ -1,0 +1,31 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Welcome to my shop.
+
+<View/@BuySell> Store. 
+
+#ELSEACT
+MOVE 0.3.5.1
+
+[@BuySell]
+#SAY
+What Item would you like to buy or sell?
+
+[Types]
+4
+
+[Trade]
+BronzeHelmet
+MagicHelmet
+BrassHelmet
+GoldenTiara
+SkeletonHelmet
+ShamanHelmet
+SteelHelmet
+HelmetOfHero
+BlackIronHelmet
+GreatHelmet
+WisdomCoronet
+TaoCoronet

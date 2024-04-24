@@ -34,9 +34,15 @@ Show me the weapon that needs it.
 1
 
 [Trade]
-Weapon56
-Weapon1
-Weapon2
-Weapon3
+WoodenSword
+Dagger
+EbonySword
+BronzeSword
+ShortSword
+IronSword
+BronzeAxe
+HookedSword
+Trident
+Scimitar
 
 [Quests]

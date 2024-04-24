@@ -1,0 +1,48 @@
+[@MAIN]
+#SAY
+Hello <$USERNAME> my name is <$NPCNAME>,
+What brings you here?
+
+<What is this place?/@info> ‎ ‎ ‎ ‎ ‎ ‎ ‎ <I was just being nosey/@EXIT>
+
+[@info]
+#SAY
+Where are my manners? I haven't even welcomed you to 
+Namso, Namso Province was the home for many great 
+adventures and heros but I haven't seen any of them 
+since 1998. I wonder what could have happened to them, 
+they protected us from the evil that lurks around 
+this world.
+
+<I want to help/@help>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <You talk to much/@EXIT>
+
+[@help]
+#SAY
+So you want to help?
+You don't look very strong to me, I'm happy to train you and
+guide you but it won't be easy.
+
+<Teach me/@Teach> ‎ ‎ ‎ ‎ ‎ ‎ ‎ <I don't want to help/@EXIT>
+
+[@Teach]
+#IF
+LEVEL <= 25
+#ACT
+GOTO @Teach1
+#ELSESAY
+Sorry <$USERNAME>, You are to high level.
+
+
+[@Teach1]
+#IF
+INGUILD
+#SAY
+<$USERNAME>, You are currently in a guild.
+Please leave this guild before trying again.
+#ELSEACT
+ADDTOGUILD PalaceGuild
+ADDNAMELIST ../NameLists/PalaceGuild.txt
+LocalMessage "Congratulations, You have joined the Palace Guild." Hint
+
+[Quests]
+1

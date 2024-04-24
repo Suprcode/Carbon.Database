@@ -1,0 +1,37 @@
+;Pots + Other
+1/2 Meat
+1/10 (HP)PotionSmall
+1/10 (MP)PotionSmall
+
+;Weapons
+1/30 WoodenSword
+1/40 Dagger
+
+;Armour
+1/32 BaseDress(M)
+1/32 BaseDress(F)
+
+;Helmets
+
+
+;Necklace
+1/60 GoldNecklace 
+1/80 PrecisionNecklace 
+
+;Bracelets
+
+
+;Rings
+1/60 CopperRing 
+1/110 HornRing 
+1/110 HexagonalRing 
+1/110 GlassRing 
+1/200 BlueRing 
+
+;Shoes
+
+
+;Belts
+
+
+;Stone

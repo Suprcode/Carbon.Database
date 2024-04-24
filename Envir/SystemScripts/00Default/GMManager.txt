@@ -1,0 +1,13 @@
+[@Main]
+{
+#IF
+ISADMIN
+#ACT
+GOTO @GM
+#ELSEACT
+LocalMessage "You are not a Gamemaster!" Hint
+
+[@Home]
+#SAY
+Hello.
+}
